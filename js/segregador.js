@@ -10,7 +10,7 @@ function mensagem(mensagem) {
 
 
 function msg2(){
-    mensagem('aprendenddo funções');
+    mensagem('Executou o código de funções');
 }
 
 
@@ -32,15 +32,15 @@ const secondtrue = !verdadeiro || !naoverdadeiro
 
 
 
-console.log('verdadeiro' , verdadeiro);
-console.log('naoverdadeiro', naoverdadeiro);
-console.log('tudoEverdadeiro', tudoEverdadeiro);
-console.log('tudoEfalso', tudoEfalso);
-console.log('algumEverdadeiro', algumEverdadeiro);
-console.log('algumEfalso', algumEfalso);
-console.log('alltrue', alltrue);
-console.log('allfalse', allfalse);
-console.log('firstrue', firstrue);
-console.log('secondtrue', secondtrue);
+//console.log('verdadeiro' , verdadeiro);
+//console.log('naoverdadeiro', naoverdadeiro);
+//console.log('tudoEverdadeiro', tudoEverdadeiro);
+//console.log('tudoEfalso', tudoEfalso);
+//console.log('algumEverdadeiro', algumEverdadeiro);
+//console.log('algumEfalso', algumEfalso);
+//console.log('alltrue', alltrue);
+//console.log('allfalse', allfalse);
+//console.log('firstrue', firstrue);
+//console.log('secondtrue', secondtrue);
 
 
