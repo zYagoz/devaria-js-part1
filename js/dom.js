@@ -1,15 +1,25 @@
-const divs = document.getElementsByTagName('div');
+const divs = $('div');
 // console.log(divs);
-const h2 = document.getElementsByTagName('h2');
+const h2 = $('h2');
 // console.log(h2);
-const titulo = document.getElementById('titulo');
+const titulo = $('#titulo');
 // console.log(titulo);
-const elementsMarginTop2 = document.getElementsByClassName('mt-2')
+const input = $('#input');
+const paragrafo = $('#paragrafo');
+const elementsMarginTop2 = $('.mt-2')
 // console.log(elementsMarginTop2);
 
 function alterarHtml(){
-    titulo.textContent = 'Novo Título'
-    titulo.style.color = '#075e54'
-    // elementsMarginTop2.className = 'mt-4'
+    titulo.text(input.val());
+    titulo.css ('color' , '#075e54');
+    for (let element of elementsMarginTop2) {
+        $(element).addClass('mt-4');
+    }
 
+    input.val('');
+
+    const novoP  = document.createElement('p');
+    novoP.textContent = ' Novo Texto adiiconado ao DOM JS'
+
+    paragrafo.after(novoP)
 }
